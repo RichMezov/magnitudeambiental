@@ -90,7 +90,7 @@ h2 {
     align-items: center;
     margin-left: 1rem;
     background-color: #fff;
-    height: 100px;
+    height: 90px;
     width: 130px;
     border-radius: 50%;
     box-shadow: 0 3px 0 #1b1b114a;
@@ -296,6 +296,7 @@ nav ul{
     font-weight: bold;
 }
 
+
 .medicos {
     display: flex;
     justify-content: center;
@@ -305,7 +306,7 @@ nav ul{
     margin: 5rem 10rem;
     display: grid;
     grid-template-columns: repeat(4, 0.1fr);
-    grid-auto-rows: minmax(200px, auto);
+    grid-auto-rows: minmax(20rem, auto);
     gap: 50px;
     align-self: center;
 } 
@@ -349,21 +350,33 @@ span p {
     font-size: 10px;
 }
 
+.especialidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+.e-container {
+    display: flex;
+    justify-content: center;
+}
 
 .cards-container {
-    margin: 5rem 10rem;
     display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
     grid-template-columns: repeat(4, 0.5fr);
-    grid-auto-rows: minmax(300px, auto);
-    gap: 10px;
-    
+    grid-auto-rows: minmax(15rem, auto);
+    gap: 4rem;
+    width: 100%;
 
 } 
 
 .card {
-    height: 15rem;
-    width: 20rem;
+    height: 9rem;
+    width: 14rem;
     border: 2px solid #06475dff;
     border-radius: 30px;    
     text-align: center;
@@ -374,6 +387,7 @@ span p {
     position: relative;
     overflow: hidden;
 }
+
 
 .card-desc {
     position: absolute;
@@ -398,12 +412,17 @@ span p {
     font-size: 20px;
     font-weight: bold;
     color: #06475dff;
-    margin-top: -1.5rem;
+    margin-top: -1rem;
 }
 
 .card-desc:hover {
     opacity: 100%;
 }
+
+.card span {
+    font-size: 16px;
+}
+
 
 .convenios span{
     text-align: center;
@@ -415,8 +434,8 @@ span p {
 
 .card img {
     margin-top: -2rem;
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8.5rem;
 }
 
 .convenios {
@@ -429,23 +448,28 @@ span p {
 .c-container{
     width: 80%;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     gap: 30px;
     align-self: center;
-    position: relative;
     margin-top: 9rem;
 }
 
 .c-container img{
-    width: 200px;
-    height: 80px;
-    margin-left: 5rem;
+    width: 160px;
+    height: 70px;
     margin-bottom: 2rem;
 }
 
 .c-display {
-    width: 80%;
+    width: 100%;
     height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-auto-rows: minmax(6rem, auto);
+    gap: 5px;
+    width: 100%;
     
 }
 
@@ -525,7 +549,9 @@ footer {
 }
 
 .logo2 img{
-    height:90px;
+    height:7.5rem;
+    width: 9rem;
+
     margin-bottom: 1rem;
     align-self: center;
 }
