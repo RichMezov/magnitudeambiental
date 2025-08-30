@@ -265,7 +265,7 @@ nav ul{
 }
 
 .pilar {
-    margin: 5rem 1rem;
+    margin: 5rem 2rem;
     height: 20rem;
     width: 25rem;
 }
@@ -540,7 +540,7 @@ footer {
     background-color: #96af79ff;
     justify-content: space-between;
     align-items: center;
-    height: 22rem;
+    height: 20rem;
 }
 
 
@@ -549,8 +549,8 @@ footer {
 }
 
 .logo2 img{
-    height:7.5rem;
-    width: 9rem;
+    height:5.5rem;
+    width: 7rem;
 
     margin-bottom: 1rem;
     align-self: center;
@@ -573,7 +573,7 @@ footer {
 }
 
 .link a{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .socials{
@@ -605,7 +605,7 @@ footer {
     color: #ffffff;
     margin:0.5rem;
     margin-right: 1rem;
-    font-size:30px;
+    font-size:26px;
 }
 
 
@@ -623,7 +623,7 @@ footer {
 .contacts h2 {
     text-align: center;
     width: 100%;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 3rem;
 }
 
@@ -636,6 +636,7 @@ footer {
 .fa-solid {
     margin-right: 1rem;
 }
+
 
 
 
