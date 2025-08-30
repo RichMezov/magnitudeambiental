@@ -1,0 +1,616 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(237, 237, 237);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    scroll-margin: 5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    scroll-margin-top: 10rem;
+}
+
+button {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: 0;
+    
+}
+
+ul li {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.marcacao {
+    background-color: #96af79ff;
+    height: 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+
+.mlogo2 img {
+    width: 70px;
+    height:50px;
+    margin:1rem;
+    align-self: center;
+}
+.marcacao span {
+    margin-right: 3rem;
+}
+
+.panel {
+    position: absolute;
+    background-color: rgba(164, 164, 164, 0.227);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    background-image: url("pics/intro-back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    background-color: #fff;
+    height: 100px;
+    width: 130px;
+    border-radius: 50%;
+    box-shadow: 0 3px 0 #1b1b114a;
+}
+.img-logo {
+    width: 60px;
+    height: 60px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #96af79ff;
+}
+
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nlink a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.nlink {
+    text-shadow: 0 2px #20202071;
+}
+
+.nav-link{
+    position: relative;
+    padding: 0 10px;
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+
+}
+
+.btt-agendar {
+    background-color: #06475dff;
+    margin-right: 4rem;
+}
+
+.btt-agendar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title h3 {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 52px;
+    text-shadow: 0 3px  rgb(51, 51, 51);
+}
+
+.main-title p {
+    margin-top: 1rem;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.688);
+}
+
+.btt-saber {
+    background-color: #06475dff;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 5rem;
+    height: 4rem;
+    width: 12rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 0 rgba(21, 21, 21, 0.442);
+}
+
+.title {
+    height: 6rem;
+    width: 100%;
+    background-color: #96af79ff;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quemsomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+}
+
+.q-logo {
+    margin-top: 5rem;
+}
+.q-logo img{
+    width: 15rem;
+    height: 12rem;
+}
+
+.q-desc {
+    text-align: center;
+    margin: 5rem 0;
+    font-size: 22px;
+    text-align: center;
+    color: #06475dff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.q-bg {
+    background-image: url("pics/quemsomos.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.dec-line{
+    background-color: #96af79ff;
+    height: 0.5rem;
+    width: 100%;
+}
+
+.q-pilars {
+    display: flex;
+    background-color: #06475dff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.q-intro {
+    margin-bottom: 3rem;
+}
+
+.pilar {
+    margin: 5rem 1rem;
+    height: 20rem;
+    width: 25rem;
+}
+
+.pilar h2{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.pilar p{
+    font-size: 20px;
+    line-height: 1.4rem;
+}
+
+.valores {
+    line-height: 2.4rem;
+    margin-left: -3rem;
+}
+
+.valores li {
+    font-size: 20px;
+}
+
+.v-element {
+    font-weight: bold;
+}
+
+.medicos {
+    display: flex;
+    justify-content: center;
+}
+
+.mcard-container {
+    margin: 5rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 0.1fr);
+    grid-auto-rows: minmax(200px, auto);
+    gap: 50px;
+    align-self: center;
+} 
+
+
+.med-card {
+    background-image: var(--card-backgroung-image,url('pics/drs/02-P&V.jpg'));
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 2px 0 #b2b2b2;
+    border-radius: 20px;
+    height: 19rem;
+    width: 13rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.med-desc {
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    height: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.med-card:hover .med-desc{
+    height: 2.8rem;
+}
+
+.med-desc span {
+    font-weight: bold;
+    color: #06475dff;
+    font-size: 16px;
+}
+
+span p {
+    color: #b2b2b2;
+    margin: 0;
+    font-size: 10px;
+}
+
+
+
+.cards-container {
+    margin: 5rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 10px;
+    
+
+} 
+
+.card {
+    height: 15rem;
+    width: 20rem;
+    border: 2px solid #06475dff;
+    border-radius: 30px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-desc {
+    position: absolute;
+    background-color: #96af79ff;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0%;
+    transition: ease-in-out 0.2s;
+}
+
+.card-desc p {
+    margin: 0 1rem ;
+}
+
+.card span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #06475dff;
+    margin-top: -1.5rem;
+}
+
+.card-desc:hover {
+    opacity: 100%;
+}
+
+.convenios span{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+}
+
+.card img {
+    margin-top: -2rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.convenios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+
+.c-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-self: center;
+    position: relative;
+    margin-top: 9rem;
+}
+
+.c-container img{
+    width: 200px;
+    height: 80px;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.c-display {
+    width: 80%;
+    height: 100%;
+    
+}
+
+.capela {
+    display: flex;
+    justify-content: center;
+}
+
+.cap-pic {
+    background-image: url("pics/capela.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 800px;
+    align-self: center;
+    margin: 5rem 0;
+    border: 2px solid #06475dff;
+
+}
+
+.cap-icon {
+    width: 160px;
+    height: 50px;
+}
+
+.cap-desc {
+    display: flex;
+    justify-content: space-between;
+    background-color: #06475dff;
+    width: 100%;
+    margin-bottom: 5rem;
+
+}
+.cap-card {
+    background-color: #96af79ff;
+    height: 21rem;
+    width: 400px;
+    margin: 5rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.containner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cap-card img {
+    margin-top: 1rem;
+    height: 45px;
+    width: 55px;
+}
+
+.cap-card p {
+    color: #ffffff;
+    margin: 2rem 2rem;
+    font-size: 16px;
+}
+
+
+footer {
+    display: flex;
+    background-color: #96af79ff;
+    justify-content: space-between;
+    align-items: center;
+    height: 22rem;
+}
+
+
+.logo2 {
+    align-self: center;
+}
+
+.logo2 img{
+    height:90px;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 18rem;
+    margin-left: 2rem;
+}
+
+
+.link {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.link a{
+    font-size: 18px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    height: 100%;
+    
+}
+
+.socials a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+
+}
+
+.socials h2 {
+    text-align: center;
+}
+
+
+
+.fa-brands {
+    color: #ffffff;
+    margin:0.5rem;
+    margin-right: 1rem;
+    font-size:30px;
+}
+
+
+
+.contacts {
+    background-color: #06475dff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 25rem;
+    color: #ffffff;
+}
+
+.contacts h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 3rem;
+}
+
+.contacts span {
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+.fa-solid {
+    margin-right: 1rem;
+}
+
+
+
+
