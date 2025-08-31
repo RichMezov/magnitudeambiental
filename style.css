@@ -745,7 +745,24 @@ footer {
         background-color:rgb(237, 237, 237);;
     }
 
+    .link a{
+    font-size: 14px;
 }
+
+.socials{
+    font-size: 14px;
+    }
+
+.contacts h2 {
+    font-size: 24px;
+}
+
+.contacts span {
+    font-size: 14px;
+}
+
+}
+
 
 
 
