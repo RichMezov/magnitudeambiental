@@ -696,8 +696,8 @@ footer {
     }
 
     .card {
-    height: 8rem;
-    width: 12rem;
+    height: 6rem;
+    width: 10rem;
 }
 
     .cards-container {
@@ -746,4 +746,5 @@ footer {
     }
 
 }
+
 
