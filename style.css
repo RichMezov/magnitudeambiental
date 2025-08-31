@@ -637,6 +637,96 @@ footer {
     margin-right: 1rem;
 }
 
+/*Changes for phone resolution*/
+
+@media (max-width:990px) {
+    
+    
+
+    .main-title h3 {
+        font-size: 36px;
+    }
+
+    .main-title p {
+        font-size: 16px;
+    }
+
+    .q-logo {
+    margin-top: 3rem;
+    }
+
+    .q-logo img{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .q-desc {
+    font-size: 18px;
+    }
+
+    .q-bg {
+        display: none;
+    }
+
+
+    .q-pilars {
+        flex-direction: column;
+        letter-spacing: 2px;
+    }
+
+    .pilar h2{
+        font-weight: bold;
+        margin: 0;
+        font-weight: lighter;
+    }
+
+    .pilar p{
+        font-size: 16px;
+    }
+
+    .valores li {
+       font-size: 18px;
+       margin-left: 2rem;
+    }
+
+    .cards-container {
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 1rem;
+
+    } 
+
+    .mcard-container {
+    grid-template-columns: repeat(2, 0.1fr);
+} 
+    .c-display {
+    grid-template-columns: repeat(2, 0.5fr);
+    
+}
+    footer {
+        padding-top: 1rem;
+        flex-direction: column;
+    }
+
+     .links {
+        display: none;
+    }
+
+    .contacts {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .home {
+    height: 400px;
+} 
+
+}
+
+
 
 
 
